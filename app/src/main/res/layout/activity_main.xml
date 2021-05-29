@@ -11,7 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Chemistry"
-        android:textSize="18sp"
+        android:textSize="24sp"
         android:textStyle="bold"
         app:backgroundTint="#2469CC"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -20,4 +20,34 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.348" />
+
+    <Button
+        android:id="@+id/phys_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Physics"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:backgroundTint="#2469CC"
+        app:flow_horizontalAlign="center"
+        app:flow_verticalAlign="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/chem_button"
+        app:layout_constraintStart_toStartOf="@+id/chem_button"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.472" />
+
+    <Button
+        android:id="@+id/maths_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="<Mathematics"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:backgroundTint="#2469CC"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/phys_button"
+        app:layout_constraintStart_toStartOf="@+id/phys_button"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.592" />
 </androidx.constraintlayout.widget.ConstraintLayout>
