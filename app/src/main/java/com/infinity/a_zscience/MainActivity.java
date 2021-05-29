@@ -18,7 +18,8 @@ public class MainActivity extends AppCompatActivity {
         chemButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(this, chemistry_standard);
+                Intent intent = new Intent(MainActivity.this, chemistry_standard.class);
+                startActivity(intent);
             }
         });
     }
