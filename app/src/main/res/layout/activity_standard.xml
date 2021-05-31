@@ -10,7 +10,7 @@
         android:id="@+id/standard11_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Class 11"
+        android:text="@string/class_11"
         android:textSize="24sp"
         app:backgroundTint="#2F2828"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -24,7 +24,7 @@
         android:id="@+id/standard12_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Class 12"
+        android:text="@string/class_12"
         android:textSize="24sp"
         app:backgroundTint="#2F2828"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -33,4 +33,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.391" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

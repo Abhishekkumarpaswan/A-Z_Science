@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">A-Z Science</string>
+    <string name="class_12">Class 12</string>
+    <string name="class_11">Class 11</string>
 </resources>

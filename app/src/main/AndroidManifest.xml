@@ -9,6 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AZScience">
+        <activity android:name=".maths12chapters"></activity>
+        <activity android:name=".maths11chapters" />
+        <activity android:name=".physics12chapters" />
+        <activity android:name=".physics11chapters" />
+        <activity android:name=".maths_standard" />
+        <activity android:name=".physics_standard" />
         <activity android:name=".chem11chapters" />
         <activity android:name=".chem12chapters" />
         <activity android:name=".chemistry_standard" />
